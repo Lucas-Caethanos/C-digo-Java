@@ -1,0 +1,37 @@
+O que são métodos HTTP?
+O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. Embora esses métodos possam ser descritos como substantivos, eles também são comumente referenciados como HTTP Verbs (Verbos HTTP).
+
+Quais são os métodos HTTP mais utilizados?
+Os mais usados são: GET, POST, PUT e DELETE.
+
+Quais são os 2 principais métodos do HTTP. Qual é a diferença entre eles?
+O método GET, que solicita a representação de um recurso específico, e o POST, que submete uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
+
+O que são requisições HTTP. Quais os tipos?
+Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor. GET, POST, HEAD, OPTIONS, PUT, DELETE e TRACE. GET e POST são os mais usados em aplicações na internet.
+
+Como funciona uma requisição?
+A requisição pelo HTTP, onde é formado pelo cabeçalho e pelo corpo da mensagem que é enviada até o servidor. Toda ação feita é identificada pelos verbos e logo em seguida são enviados até o servidos para serem autorizadas.
+
+O que é o método GET?
+As requisições do tipo GET são recomendadas para obter dados de um determinado recurso. Como em um formulário de busca ou em uma listagem de todos os produtos cadastrados.
+
+Qual é o protocolo de internet para a transferência segura, com uso de certificado digital utilizado em sites de compras eletrônicas?
+O melhor protocolo para isso é o https, pois possui uma cama de criptografia específica que protege os dados.
+
+Quais os principais métodos de uma requisição REST?
+Query params: Recebe os dados da requisição como parâmetro na URL.
+Route params: Recebe os dados da requisição na rota.
+Body Params: Recebe os dados da requisição no corpo da requisição, em um objeto em JSON. Sempre utilizando no método POST da requisição.
+
+Qual a diferença entre IPv4 4 IPv6?
+A maior diferença entre IPv4 e IPv6 com certeza é o número de endereços IP disponíveis em cada um dos protocolos. No IPv4 temos 4,294,967,296 endereços, enquanto no IPv6 temos um total de 340,282,366,920,938,463,463,374,607,431,768,211,456 endereços IP.
+
+Faça um resumo sobre os seguintes protocolos HTTP, TCP, IP, UDP, SMTP, FTP.
+Http: permite a interação na web, para obter conteúdo html, por exemplo.
+TCP: envia os pacotes de dados pela rede.
+IP: determina o endereço onde os dados enviados pelo TCP chegam.
+UDP: é um protocolo de transporte, mas não garante a entrega dos dados
+SMTP: responsável por garantir que os e-mails que você envia diariamente cheguem aos destinatários.
+FTP: permite a troca de arquivos na rede. 
+
